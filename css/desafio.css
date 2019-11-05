@@ -1,0 +1,14 @@
+p.biografia, ul.biografia{ 
+  font-family: Roboto Mono, Helvetica; 
+  font-size: 12px; 
+  letter-spacing: 1px;
+  line-height: 15px;  
+  color:#0033FF;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,700&display=swap');
+
+a:visited{
+color: initial;
+}
+

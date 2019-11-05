@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+	<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/general.css">
+    <meta charset="utf-8">
+    <title>The Beatles</title>
+</head>
+<body>
+        <header class="menu"> 
+            <div class="dlogo"> 
+                <img a="index.html" class="logo" src="img/logo2.png"> 
+            </div>
+        <nav>
+            <ul>
+                <li> <a class="home" href="#abbey"><b>Home</b></a> </li>
+                <li class="dropdown"> <a class="integrantes" href="integrantes.html">Integrantes</a> 
+                    <ul class="dropdown-content">
+                        <li>Jhon Lennon</li>
+                        <li>Paul McCartney</li>
+                        <li>George Harrison</li>
+                        <li>Ringo Starr</li>
+                    </ul>
+                </li>
+                <li class="historia"> <a href="historia.html">Historia</a> </li>
+                <li class="discografia"> <a href="discografia.html">Discografia</a> </li>
+                <li class="filmografia"> <a href="filmografia.html">Filmografia</a> </li>
+            </ul>
+        </nav>
+        </header>
+    <div id="abbey" class="abbey">
+    <img src="img/abbey.jpg">
+	</div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section id="video">
+        <p> ¿Sabías? Esta es la canción de The Beatles que más covers le hicieron. </p>
+        <video controls class="vid">
+            <source src="vid/yesterday.mp4" type="video/mp4">
+            <source src="vid/yesterday.mp3" type="video/mp3"> Tu navegador no implementa el elemento <code>video</code>
+        </video>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section class="formulario">
+        <form>
+               <legend>Escribe aqui tu problema con el producto o cualquier duda que tengas y te mandaremos un mail con tu respuesta!</legend>
+                <div>Sexo:
+                    <br>
+                    <label for="sexo">Hombre</label>
+                    <input type="radio" name="sexo" value="hombre" />
+                    <label for="sexo">Mujer</label>
+                    <input type="radio" name="sexo" value="mujer" /> </div>
+                <br>
+                <label for="nombre">Nombre:</label>
+                <br>
+                <input type="text" name="nombre" placeholder="Nombre">
+                <br>
+                <br>
+                <label for="apellido">Apellido:</label>
+                <br>
+                <input type="text" name="apellido" placeholder="Apellido">
+                <br>
+                <br>
+                <label for="mail">Mail:</label>
+                <br>
+                <input type="email" name="mail" placeholder="usuario@servidor.com">
+                <br>
+                <br>
+                <label for="seleccione">Seleccione:</label>
+                <select name="seleccione">
+                    <option value="seleccionar">(Seleccionar uno)</option>
+                    <option value="Discos">Discos</option>
+                    <option value="Ropa">Ropa</option>
+                    <option value="Juguetes">Juguetes</option>
+                    <option value="Peliculas">Peliculas</option>
+                    <option value="Otro">Otro</option>
+                </select>
+                <input type="text" placeholder="Escribe aqui..." size="80" width="40">
+                <br>
+                <br>
+                <input type="submit" value="Enviar">
+                <input type="reset" name="Restablecer">
+
+        </form>
+    </section>
+</body>
+<footer id="pie">
+    <div class="derechos">
+    © Derechos reservados 
+    </div>
+    <div class="iconos">
+    	<a target="blank" href="https://www.facebook.com/thebeatles/">
+    		<ion-icon name="logo-facebook"></ion-icon></a>
+    	<a target="blank" href="https://www.youtube.com/thebeatles">
+    	<ion-icon name="logo-youtube"></ion-icon></a>
+    	<a target="blank" href="https://twitter.com/thebeatles">
+    	</ion-icon><ion-icon name="logo-twitter"></ion-icon></a>
+    	<a target="blank" href="https://instagram.com/thebeatles">
+    	</ion-icon><ion-icon name="logo-instagram"></ion-icon></a>
+    </div>
+</footer>
+</html>

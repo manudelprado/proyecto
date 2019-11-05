@@ -1,0 +1,205 @@
+#pie{
+	background: black;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background: #f3de8a;
+	font-family: Roboto Mono, Arial;
+	font-size: 12pt
+}
+
+.tablas td img{
+	width: 300px;
+}
+.vid{
+	width: 400px;
+}
+
+div.abbey{
+	text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,700|Fjalla+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,700&display=swap');
+
+.iconos{
+	text-align: right;
+	font-size: 30px;
+	color: white;
+}
+a:link{
+	color: white;
+text-decoration: none;
+}
+
+a:visited{
+text-decoration: none;
+color: white;
+}
+#pie{
+	color:white;
+}
+
+.integ{
+	overflow: auto;
+	width: 100%;
+}
+
+.lennon{
+	width: 25%;
+	float:left;
+}
+
+.paul{
+	width: 25%;
+	float: left;
+}
+
+.harrison{
+	width: 25%;
+	float: left;
+}
+
+
+.derechos{
+	width: 20%;
+	float: left;
+	text-align: left;
+	padding: 9px 10px
+}
+
+
+.dlogo{
+	width: 20%;
+	float: left;
+	background-color: black;
+}
+
+.logo{
+	width: 106px;
+	padding-bottom: 1px;
+	float: left;
+}
+
+.pelis{
+	margin-top: 20px
+}
+
+
+#abbey{
+	margin-top: 20px;
+}
+
+
+nav > ul > li{
+		list-style: none;
+		float:left;
+		width: 15%;
+		padding: 20px 1px;
+		text-align: center;
+		padding-top: 0px; 
+		margin-bottom: 10px;
+		margin-top: 0px;
+}
+
+.menu{
+	width: 100%;
+	background-color: black;
+	font-family: Prociono, Arial;
+	font-size: 14pt;
+	padding: 40px;
+	padding-bottom: 60px
+	margin-bottom: 40px;
+}
+
+.dropdown {
+	color: white;
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  padding: 30px;
+  z-index: 999;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content{
+	list-style: none;
+}
+
+@keyframes menu{
+	0%{font-size: 12pt; color: #fed136}	
+	25%{color: #fed136}
+	75%{color: #fed136}
+	100%{font-size: 16pt; color: #fed136}
+	background-color: black
+}
+
+.integrantes:hover{
+	animation-name: menu;
+	animation-duration: 1s;
+	font-size: 16pt;
+	transform-origin: bottom, top;
+	color: #fed136;
+}
+
+.home:hover{
+	animation-name: menu;
+	animation-duration: 1s;
+	font-size: 16pt;
+	color: #fed136;
+}
+
+
+.historia:hover{
+	animation-name: menu;
+	animation-duration: 1s;
+	font-size: 16pt;
+	color: #fed136;
+}
+
+.discografia:hover{
+	animation-name: menu;
+	animation-duration: 1s;
+	font-size: 16pt;
+	color: #fed136;
+}
+
+.filmografia:hover{
+	animation-name: menu;
+	animation-duration: 1s;
+	font-size: 16pt;
+	color: #fed136;
+}
+
+.lista{
+	margin-top: 20px;
+}
+
+.integ{
+	margin-top: 20px;
+}
+
+#video{
+	padding: 10px;
+	margin: 10px;
+}
+
+
+.logo{
+	transform: translate(20px,0px); 
+}
+
+
+
+
+
