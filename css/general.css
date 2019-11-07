@@ -1,5 +1,7 @@
 #pie{
+	display: flex;
 	background: black;
+	color:white;
 }
 body{
 	margin: 0;
@@ -9,9 +11,44 @@ body{
 	font-size: 12pt
 }
 
-.tablas td img{
-	width: 300px;
+.tablas{
+	display: flex;
+	flex-wrap: wrap;
 }
+
+.peli_1{
+	flex-basis: 25%;
+	flex: 
+	width: 10px;
+	flex-wrap: wrap;
+}
+
+.peli_2{
+	flex-basis: 25%;
+	width: 10px;
+	flex-wrap: wrap;
+}
+
+.peli_3{
+	width: 10px;
+	flex-wrap: wrap;
+}
+
+.peli_4{
+	width: 10px;
+	flex-wrap: wrap;
+}
+
+.peli_5{
+	width: 10px;
+	flex-wrap: wrap;
+}
+
+.tablas img{
+	flex-basis: 20%;
+	flex-wrap: wrap;
+}
+
 .vid{
 	width: 400px;
 }
@@ -24,10 +61,19 @@ div.abbey{
 
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,700&display=swap');
 
+.derechos{
+	flex-basis: 50%;
+	text-align: left;
+	padding: 9px 10px
+}
+
 .iconos{
 	text-align: right;
 	font-size: 30px;
 	color: white;
+	flex-basis: 50%;
+	justify-content: center;
+	align-content: space-around;
 }
 a:link{
 	color: white;
@@ -38,49 +84,39 @@ a:visited{
 text-decoration: none;
 color: white;
 }
-#pie{
-	color:white;
-}
 
 .integ{
-	overflow: auto;
-	width: 100%;
+	display: flex;
+	flex-basis: 25%;
+	flex-direction: center;
+	justify-content: space-between;
 }
 
 .lennon{
-	width: 25%;
-	float:left;
+margin: 5%
 }
 
 .paul{
-	width: 25%;
-	float: left;
+margin: 5%
 }
 
 .harrison{
-	width: 25%;
-	float: left;
+margin: 5%
 }
 
-
-.derechos{
-	width: 20%;
-	float: left;
-	text-align: left;
-	padding: 9px 10px
+.ringo{
+	margin:5%;
+	margin-bottom: 22%;
 }
-
 
 .dlogo{
 	width: 20%;
-	float: left;
 	background-color: black;
 }
 
 .logo{
 	width: 106px;
 	padding-bottom: 1px;
-	float: left;
 }
 
 .pelis{
@@ -95,53 +131,31 @@ color: white;
 
 nav > ul > li{
 		list-style: none;
-		float:left;
-		width: 15%;
-		padding: 20px 1px;
 		text-align: center;
-		padding-top: 0px; 
-		margin-bottom: 10px;
-		margin-top: 0px;
+		padding-right: 110px;
+		flex-basis: 20%;
+}
+
+.menu2{
+	flex: end;
+	align-items: center;
+	display: flex;
+	justify-content: space-around;
 }
 
 .menu{
-	width: 100%;
+	display: flex;
 	background-color: black;
 	font-family: Prociono, Arial;
 	font-size: 14pt;
-	padding: 40px;
-	padding-bottom: 60px
-	margin-bottom: 40px;
-}
-
-.dropdown {
-	color: white;
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: black;
-  padding: 30px;
-  z-index: 999;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.dropdown-content{
-	list-style: none;
 }
 
 @keyframes menu{
-	0%{font-size: 12pt; color: #fed136}	
-	25%{color: #fed136}
-	75%{color: #fed136}
-	100%{font-size: 16pt; color: #fed136}
-	background-color: black
+	0%{font-size: 12pt; color: #fed136};
+	25%{color: #fed136};
+	75%{color: #fed136};
+	100%{font-size: 16pt; color: #fed136};
+	background-color: black;
 }
 
 .integrantes:hover{
