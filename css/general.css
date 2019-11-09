@@ -3,6 +3,7 @@
 	background: black;
 	color:white;
 }
+
 body{
 	margin: 0;
 	padding: 0;
@@ -14,33 +15,31 @@ body{
 .tablas{
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-around;
 }
 
 .peli_1{
-	flex-basis: 25%;
-	flex: 
-	width: 10px;
+	width: 400px;
 	flex-wrap: wrap;
 }
 
 .peli_2{
-	flex-basis: 25%;
-	width: 10px;
+	width: 400px;
 	flex-wrap: wrap;
 }
 
 .peli_3{
-	width: 10px;
+	width: 400px;
 	flex-wrap: wrap;
 }
 
 .peli_4{
-	width: 10px;
+	width: 400px;
 	flex-wrap: wrap;
 }
 
 .peli_5{
-	width: 10px;
+	width: 400px;
 	flex-wrap: wrap;
 }
 
@@ -75,6 +74,7 @@ div.abbey{
 	justify-content: center;
 	align-content: space-around;
 }
+
 a:link{
 	color: white;
 text-decoration: none;
@@ -128,12 +128,11 @@ margin: 5%
 	margin-top: 20px;
 }
 
-
 nav > ul > li{
-		list-style: none;
-		text-align: center;
-		padding-right: 110px;
-		flex-basis: 20%;
+	list-style: none;
+	text-align: center;
+	padding-right: 110px;
+	flex-basis: 20%;
 }
 
 .menu2{
@@ -207,7 +206,6 @@ nav > ul > li{
 	padding: 10px;
 	margin: 10px;
 }
-
 
 .logo{
 	transform: translate(20px,0px); 
