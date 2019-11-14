@@ -52,9 +52,6 @@ body{
 	width: 400px;
 }
 
-div.abbey{
-	text-align: center;
-}
 
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,700|Fjalla+One&display=swap');
 
@@ -108,45 +105,51 @@ margin: 5%
 	margin:5%;
 	margin-bottom: 22%;
 }
-
-.dlogo{
-	width: 20%;
-	background-color: black;
-}
-
-.logo{
-	width: 106px;
-	padding-bottom: 1px;
-}
-
 .pelis{
 	margin-top: 20px
 }
 
+div.abbey{
+	text-align: center;
+}
 
-#abbey{
+.abbey2{
+	width: 100%;
 	margin-top: 20px;
 }
+
+
+.dlogo{
+	width: 20%;
+}
+
+.logo{
+	width: 106px;
+}
+
 
 nav > ul > li{
 	list-style: none;
 	text-align: center;
 	padding-right: 110px;
-	flex-basis: 20%;
+	flex-basis: 7%;
 }
 
 .menu2{
-	flex: end;
+	width: 100%;
 	align-items: center;
 	display: flex;
 	justify-content: space-around;
+	flex-wrap: wrap;	
 }
 
 .menu{
+	width: 100%;
 	display: flex;
 	background-color: black;
 	font-family: Prociono, Arial;
 	font-size: 14pt;
+
 }
 
 @keyframes menu{
@@ -203,6 +206,7 @@ nav > ul > li{
 }
 
 #video{
+	width: 100%
 	padding: 10px;
 	margin: 10px;
 }
@@ -210,6 +214,19 @@ nav > ul > li{
 .logo{
 	transform: translate(20px,0px); 
 }
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .vid{
+    	width: 100%;
+    }
+
+  
+}
+
+
 
 
 

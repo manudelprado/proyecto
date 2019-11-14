@@ -1,7 +1,15 @@
 .formulario{
-border-radius: 20px
-margin-left: 1px;
-padding: 80px;
-padding-left: 210px;
-background: linear-gradient(to top, #ffc16d, #f3de8a);
+	width: 100%
+	border-radius: 20px
+	padding-left: 210px;
+	background: linear-gradient(to top, #ffc16d, #f3de8a);
+}
+
+
+@media only screen and (max-width: 320px) {
+  body {
+  	.formulario{
+  		padding: 0;
+  	}
+  }
 }
