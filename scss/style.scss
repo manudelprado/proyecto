@@ -1,0 +1,12 @@
+@mixin d-flex($bg){
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+    flex-basis: $bg;
+}
+.tablas{
+    @include d-flex;
+}
+.integ{
+	@include d-flex(25%);
+}

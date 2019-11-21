@@ -1,0 +1,11 @@
+.tablas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-basis: #f3de8a; }
+
+.integ {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-basis: 25%; }

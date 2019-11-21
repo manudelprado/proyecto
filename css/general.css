@@ -1,7 +1,7 @@
 #pie{
+	color: white;
 	display: flex;
 	background: black;
-	color:white;
 }
 
 body{
@@ -11,13 +11,13 @@ body{
 	font-family: Roboto Mono, Arial;
 	font-size: 12pt
 }
-
+/*
 .tablas{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
 }
-
+*/
 .peli_1{
 	width: 400px;
 	flex-wrap: wrap;
@@ -66,7 +66,6 @@ body{
 .iconos{
 	text-align: right;
 	font-size: 30px;
-	color: white;
 	flex-basis: 50%;
 	justify-content: center;
 	align-content: space-around;
@@ -82,13 +81,13 @@ text-decoration: none;
 color: white;
 }
 
-.integ{
+/*.integ{
 	display: flex;
 	flex-basis: 25%;
 	flex-direction: center;
 	justify-content: space-between;
 }
-
+*/
 .lennon{
 margin: 5%
 }
@@ -222,8 +221,13 @@ nav > ul > li{
     .vid{
     	width: 100%;
     }
-
-  
+    .integ{
+    	flex-wrap: wrap;
+    }
+  	.tablas{
+  		flex-wrap: wrap;
+  		justify-content: space-around;
+  	}
 }
 
 
