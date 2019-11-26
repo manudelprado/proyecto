@@ -11,13 +11,6 @@ body{
 	font-family: Roboto Mono, Arial;
 	font-size: 12pt
 }
-/*
-.tablas{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-}
-*/
 .peli_1{
 	width: 400px;
 	flex-wrap: wrap;
@@ -58,7 +51,6 @@ body{
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,700&display=swap');
 
 .derechos{
-	flex-basis: 50%;
 	text-align: left;
 	padding: 9px 10px
 }
@@ -66,9 +58,8 @@ body{
 .iconos{
 	text-align: right;
 	font-size: 30px;
-	flex-basis: 50%;
-	justify-content: center;
-	align-content: space-around;
+	justify-content: space-between;
+	padding-right: 80px; 
 }
 
 a:link{
@@ -88,22 +79,51 @@ color: white;
 	justify-content: space-between;
 }
 */
-.lennon{
-margin: 5%
+.img_lennon{
+	width: 250px;
 }
 
-.paul{
-margin: 5%
+.img_paul{
+	width: 250px;
 }
 
-.harrison{
-margin: 5%
+.img_harrison{
+	width: 180px;
 }
 
-.ringo{
-	margin:5%;
-	margin-bottom: 22%;
+.img_ringo{
+	width: 250px;
 }
+@keyframes imgs{
+	0%{border-radius: 0;}
+	100%{border-radius: 40px;}
+}
+
+.img_lennon:hover{
+	border-radius: 40px;
+	animation-name: imgs;
+	animation-duration: 2s;
+}
+
+.img_paul:hover{
+	border-radius: 40px;
+	animation-name: imgs;
+	animation-duration: 2s;
+}
+
+.img_harrison:hover{
+	border-radius: 40px;
+	animation-name: imgs;
+	animation-duration: 2s;
+}
+
+.img_ringo:hover{
+	border-radius: 40px;
+	animation-name: imgs;
+	animation-duration: 2s;
+}
+
+
 .pelis{
 	margin-top: 20px
 }
@@ -139,7 +159,8 @@ nav > ul > li{
 	align-items: center;
 	display: flex;
 	justify-content: space-around;
-	flex-wrap: wrap;	
+	flex-wrap: wrap;
+	margin-top: 1em;	
 }
 
 .menu{
@@ -224,15 +245,14 @@ nav > ul > li{
     .integ{
     	flex-wrap: wrap;
     }
-  	.tablas{
+  	.discografia-img{
   		flex-wrap: wrap;
   		justify-content: space-around;
   	}
 }
 
-
-
-
-
+.titulo-tb{
+	margin-top: 15px;
+}
 
 
