@@ -9,14 +9,13 @@
   margin: auto;  
   color: #fff;
   text-align: center;
-  
-  
+  line-height: 90px;
   background: #000;
   transition: opacity .4s linear;
   cursor: pointer;  
   position: absolute;
   top: 0;
-  right: 5%;
+  right: 0;
   bottom: 0;
   left: 0;
   opacity: 0;
@@ -46,6 +45,37 @@
   .img-container{
     flex-basis: 50%;
   }
+  .img-container p{
+    line-height: 40px;
+  }
+  .indicadores{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .img-container p{
+    line-height: 40px;
+  }
 }
 
 
+.lennon p{
+  text-align: center;
+}
+
+.paul p{
+  text-align: center;
+}
+
+.harrison p{
+  text-align: center;
+}
+
+.ringo p{
+  text-align: center;
+}
+
+#pie{
+  margin-top: 10px;
+}

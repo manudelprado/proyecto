@@ -72,13 +72,6 @@ text-decoration: none;
 color: white;
 }
 
-/*.integ{
-	display: flex;
-	flex-basis: 25%;
-	flex-direction: center;
-	justify-content: space-between;
-}
-*/
 .img_lennon{
 	width: 250px;
 }
@@ -94,6 +87,7 @@ color: white;
 .img_ringo{
 	width: 250px;
 }
+
 @keyframes imgs{
 	0%{border-radius: 0;}
 	100%{border-radius: 40px;}
@@ -102,50 +96,38 @@ color: white;
 .img_lennon:hover{
 	border-radius: 40px;
 	animation-name: imgs;
-	animation-duration: 2s;
+	animation-duration: 1s;
 }
 
 .img_paul:hover{
 	border-radius: 40px;
 	animation-name: imgs;
-	animation-duration: 2s;
+	animation-duration: 1s;
 }
 
 .img_harrison:hover{
 	border-radius: 40px;
 	animation-name: imgs;
-	animation-duration: 2s;
+	animation-duration: 1s;
 }
 
 .img_ringo:hover{
 	border-radius: 40px;
 	animation-name: imgs;
-	animation-duration: 2s;
+	animation-duration: 1s;
 }
-
 
 .pelis{
 	margin-top: 20px
 }
-
-div.abbey{
-	text-align: center;
-}
-
-.abbey2{
-	width: 100%;
-	margin-top: 20px;
-}
-
 
 .dlogo{
 	width: 20%;
 }
 
 .logo{
-	width: 106px;
+	width: 140px;
 }
-
 
 nav > ul > li{
 	list-style: none;
@@ -169,11 +151,10 @@ nav > ul > li{
 	background-color: black;
 	font-family: Prociono, Arial;
 	font-size: 14pt;
-
 }
 
 @keyframes menu{
-	0%{font-size: 12pt; color: #fed136};
+	0%{font-size: 14pt; color: #fed136};
 	25%{color: #fed136};
 	75%{color: #fed136};
 	100%{font-size: 16pt; color: #fed136};
@@ -181,38 +162,27 @@ nav > ul > li{
 }
 
 .integrantes:hover{
-	animation-name: menu;
-	animation-duration: 1s;
 	font-size: 16pt;
 	transform-origin: bottom, top;
 	color: #fed136;
 }
 
 .home:hover{
-	animation-name: menu;
-	animation-duration: 1s;
 	font-size: 16pt;
 	color: #fed136;
 }
 
-
 .historia:hover{
-	animation-name: menu;
-	animation-duration: 1s;
 	font-size: 16pt;
 	color: #fed136;
 }
 
 .discografia:hover{
-	animation-name: menu;
-	animation-duration: 1s;
 	font-size: 16pt;
 	color: #fed136;
 }
 
 .filmografia:hover{
-	animation-name: menu;
-	animation-duration: 1s;
 	font-size: 16pt;
 	color: #fed136;
 }
@@ -235,10 +205,7 @@ nav > ul > li{
 	transform: translate(20px,0px); 
 }
 
-
-
 @media only screen and (max-width: 600px) {
-
     .vid{
     	width: 100%;
     }
@@ -249,10 +216,11 @@ nav > ul > li{
   		flex-wrap: wrap;
   		justify-content: space-around;
   	}
+  	.img_lennon, .img_paul{
+  		width: 220px;
+  	}
 }
 
 .titulo-tb{
 	margin-top: 15px;
 }
-
-

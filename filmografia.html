@@ -4,10 +4,11 @@
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
     <link rel="stylesheet" type="text/css" href="css/general.css">
     <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/pags.css">
     <title>The Beatles | Filmografía</title>
 </head>
 
@@ -27,35 +28,68 @@
             </ul>
         </nav>
     </header>
-    <div class="pelis container-fluid">
-        <p>
+    <div class="pelis">
+        <p class="container-fluid">
             Aunque peliculas sobre los Beatles hubo muchas, no en todas actuaron ellos.
             <br>Aquí estan las peliculas en las que aparecen:</p>
-        <ol>
-            <li>A Hard Day´s Night (1964)</li>
-            <br>
-            <li>Help! (1965)</li>
-            <br>
-            <li>Magical Mystery Tour (1967)</li>
-            <br>
-            <li>Yellow Submarine (1968)</li>
-            <br>
-            <li>Let It Be (1970)</li>
-            <br>
-        </ol>
-        <div class="tablas">
-            <section class="peli_1"><img class="peli_1" src="img/peli_1.png"></section>
-            <section class="peli_2"><img class="peli_2" src="img/peli_2.png"></section>
-            <section class="peli_3"><img class="peli_3" src="img/peli_3.png"></section>
-            <section class="peli_4"><img class="peli_4" src="img/peli_4.png"></section>
-            <section class="peli_5"><img class="peli_5" src="img/peli_5.png"></section>
-        </div>
-    </div>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li class="indicadores" data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li class="indicadores" data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li class="indicadores" data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li class="indicadores" data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li class="indicadores" data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="img/peli_1.jpg" alt="First slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>A Hard Day´s Night</h5>
+                        <p>Año: 1964</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/peli_2.jpg" alt="Second slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Help!</h5>
+                        <p>Año: 1965</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/peli_3.jpg" alt="Third slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Magical Mystery Tour</h5>
+                        <p>Año: 1967</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/peli_4.jpg" alt="Fourth slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Yellow Submarine</h5>
+                        <p>Año: 1968</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/peli_5.jpg" alt="Fifth slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Let It Be</h5>
+                        <p>Año: 1970</p>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
-<footer id="pie">
+<footer id="pie" class="pie_f">
     <div class="derechos col-md-7">
         © Derechos reservados
     </div>
