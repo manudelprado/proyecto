@@ -43,7 +43,7 @@
 
 @media only screen and (max-width: 600px) {
   .img-container{
-    flex-basis: 50%;
+    flex-basis: 100%;
   }
   .img-container p{
     line-height: 40px;

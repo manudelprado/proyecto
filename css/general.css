@@ -41,11 +41,6 @@ body{
 	flex-wrap: wrap;
 }
 
-.vid{
-	width: 400px;
-}
-
-
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,700|Fjalla+One&display=swap');
 
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,700&display=swap');
@@ -206,9 +201,6 @@ nav > ul > li{
 }
 
 @media only screen and (max-width: 600px) {
-    .vid{
-    	width: 100%;
-    }
     .integ{
     	flex-wrap: wrap;
     }
@@ -219,8 +211,37 @@ nav > ul > li{
   	.img_lennon, .img_paul{
   		width: 220px;
   	}
+  	.derechos{
+  		display: flex;
+  	}
+  	.iconos{
+  		display: flex;
+  	}
+  	.video-yt{
+  		width: 100%;
+  	}
+  	a.link-discografia{
+	pointer-events: none;
+	cursor: default;
+}
+}
+@media only screen and (max-height: 600px) {
+	a.link-discografia{
+	pointer-events: none;
+	cursor: default;
+}
 }
 
+}
 .titulo-tb{
 	margin-top: 15px;
+}
+
+.texto-yt{
+	font-weight: 500;
+	font-size: 14pt;
+}
+
+.sabias{
+	font-weight: 600;
 }
