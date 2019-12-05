@@ -69,45 +69,50 @@ color: white;
 
 .img_lennon{
 	width: 250px;
+	border-radius: 50%;
 }
 
 .img_paul{
 	width: 250px;
+	border-radius: 50%;
 }
 
 .img_harrison{
-	width: 180px;
+	width: 250px;
+	border-radius: 50%;
 }
 
 .img_ringo{
 	width: 250px;
+	border-radius: 50%;
 }
 
 @keyframes imgs{
-	0%{border-radius: 0;}
-	100%{border-radius: 40px;}
+	0%{transform: rotate(0deg);}
+	50%{transform: rotate(15deg);}
+	100%{transform: rotate(0deg);}
 }
 
 .img_lennon:hover{
-	border-radius: 40px;
+	transform:rotate(0deg);
 	animation-name: imgs;
 	animation-duration: 1s;
 }
 
 .img_paul:hover{
-	border-radius: 40px;
+	border-radius: 50%;
 	animation-name: imgs;
 	animation-duration: 1s;
 }
 
 .img_harrison:hover{
-	border-radius: 40px;
+	transform: rotate(0deg);
 	animation-name: imgs;
 	animation-duration: 1s;
 }
 
 .img_ringo:hover{
-	border-radius: 40px;
+	transform: rotate(0deg);
 	animation-name: imgs;
 	animation-duration: 1s;
 }
@@ -230,11 +235,6 @@ nav > ul > li{
 	pointer-events: none;
 	cursor: default;
 }
-}
-
-}
-.titulo-tb{
-	margin-top: 15px;
 }
 
 .texto-yt{

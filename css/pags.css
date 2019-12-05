@@ -62,20 +62,34 @@
 
 .lennon p{
   text-align: center;
+  margin-top: 10px;
 }
 
 .paul p{
   text-align: center;
+  margin-top: 10px;
 }
 
 .harrison p{
   text-align: center;
+  margin-top: 10px;
 }
 
 .ringo p{
   text-align: center;
+  margin-top: 10px;
 }
 
 #pie{
   margin-top: 10px;
+}
+
+.nombres{
+  margin-top: 2em;
+  font-size: 16pt;
+  color: #4c4136
+}
+
+.title-tb{
+  margin-top: 15px;
 }
